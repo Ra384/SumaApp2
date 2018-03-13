@@ -33,4 +33,25 @@ public class MainActivity extends AppCompatActivity {
         int resultado = num1 + num2;
         varTxtResultado.setText("El resultado es: "+resultado);
     }
+
+    public void doResta(View v){
+        int num1 = Integer.parseInt(varTxtNum1.getText().toString());
+        int num2 = Integer.parseInt(varTxtNum2.getText().toString());
+        int resultado = num1-num2;
+        varTxtResultado.setText("El resultado es: "+resultado);
+    }
+
+    public void doMult(View v){
+        int num1 = Integer.parseInt(varTxtNum1.getText().toString());
+        int num2 = Integer.parseInt(varTxtNum2.getText().toString());
+        int resultado = num1*num2;
+        varTxtResultado.setText("El resultado es: "+resultado);
+
+    }
+    public void doDiv(View v){
+        double num1 = Double.parseDouble(varTxtNum1.getText().toString());
+        double num2 = Double.parseDouble(varTxtNum2.getText().toString());
+        double resultado = num1/num2;
+        varTxtResultado.setText("El resultado es: "+resultado);
+    }
 }
