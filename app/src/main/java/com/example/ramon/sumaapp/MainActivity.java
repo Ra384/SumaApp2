@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         int num2 = Integer.parseInt(varTxtNum2.getText().toString());
         int resultado = num1*num2;
         varTxtResultado.setText("El resultado es: "+resultado);
-
+        //txt
     }
     public void doDiv(View v){
         double num1 = Double.parseDouble(varTxtNum1.getText().toString());
