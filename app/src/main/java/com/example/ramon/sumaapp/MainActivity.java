@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
      /*
-    Metodo Accion Boton
+    Metodo Accion Boton nkkk
      */
 
     public void doSum(View v){
